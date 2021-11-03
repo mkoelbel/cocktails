@@ -3,19 +3,27 @@ library(rsconnect)
 library(shinydashboard)
 library(dplyr)
 library(stringi)
+library(stringr)
+library(rvest)
 
-cocktail_tags = c(
-    "old_fashioned",
-    "manhattan",
-    "mojito",
-    "margarita",
-    "whiskey_sour",
-    "bees_knees",
-    "refreshing",
-    "dessert",
-    "hors_doeuvres",
-    "whiskey",
-    "gin"
+recipes_html <- read_html("recipes.html")
+
+cocktail_map = list(
+    "old_fashioned" = c("old_fashioned"),
+    "manhattan" = c("manhattan"),
+    "mojito" = c("mojito"),
+    "margarita" = c("margarita"),
+    "whiskey_sour" = c("whiskey_sour"),
+    "bees_knees" = c("bees_knees"),
+    "amaretto_sour" = c("amaretto_sour"),
+    "pina_colada" = c("pina_colada"),
+    "refreshing" = c("mojito", "bees_knees"),
+    "summer" = c("mojito", "bees_knees", "margarita", "pina_colada"),
+    "dessert" = c("amaretto_sour", "whiskey_and_amaretto"),
+    "hors_doeuvres" = c("old_fashioned", "manhattan", "mojito", "margarita", "whiskey_sour", "bees_knees", "pina_colada"),
+    "whiskey" = c("old_fashioned", "manhattan", "whiskey_sour", "amaretto_sour"),
+    "gin" = c("bees_knees"),
+    "amaretto" = c("amaretto_sour", "whiskey_and_amaretto")
 )
 
 # cocktail_list = c(
@@ -29,17 +37,3 @@ cocktail_tags = c(
 #     "amaretto_sour",
 #     "pina_colada"
 # )
-
-cocktail_map = list(
-    "old_fashioned" = c("old_fashioned"),
-    "manhattan" = c("manhattan"),
-    "mojito" = c("mojito"),
-    "margarita" = c("margarita"),
-    "whiskey_sour" = c("whiskey_sour"),
-    "bees_knees" = c("bees_knees"),
-    "refreshing" = c("mojito", "bees_knees"),
-    "dessert" = c("whiskey_and_amaretto"),
-    "hors_doeuvres" = c("old_fashioned", "manhattan", "mojito", "margarita", "whiskey_sour", "bees_knees"),
-    "whiskey" = c("old_fashioned", "manhattan", "bees_knees"),
-    "gin" = c("bees_knees")
-)

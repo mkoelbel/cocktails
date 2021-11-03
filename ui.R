@@ -4,9 +4,9 @@ ui <- dashboardPage(
     
     dashboardSidebar(
         selectInput(
-            inputId = "selected_words",
+            inputId = "selected_tags",
             label = "Choose",
-            choices = cocktail_tags,
+            choices = names(cocktail_map),
             multiple = FALSE
         )
     ),
