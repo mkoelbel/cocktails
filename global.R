@@ -1,10 +1,11 @@
+rm(list = ls())
+
 library(shiny)
+library(shinythemes)
 library(rsconnect)
-library(shinydashboard)
 library(dplyr)
-library(stringi)
-library(stringr)
 library(rvest)
+library(janitor)
 
 recipes_html <- read_html("recipes.html")
 
