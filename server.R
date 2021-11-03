@@ -4,7 +4,7 @@ server <- function(input, output) {
     values$filtered_cocktails <- NULL
     
     observeEvent(input$selected_tags, {
-        values$filtered_cocktails <- cocktail_map[[input$selected_tags]]
+        values$filtered_cocktails <- unname(pretty_names[cocktail_map[[make_clean_names(input$selected_tags)]]])
     })
     
     output$options_output <- renderUI({
@@ -12,16 +12,16 @@ server <- function(input, output) {
         
         selectInput(
             inputId = "selected_cocktail",
-            label = "Possibilities",
+            label = "Potential Cocktail(s)",
             choices = values$filtered_cocktails
         )
     })
     
     output$recipe <- renderUI({
-        raw_text <- recipes_html %>% html_nodes(paste0('#',input$selected_cocktail)) %>% html_text()
-        split_text <- raw_text %>% stringi::stri_split(regex = "\r\n") %>% unlist %>% str_trim
-        replaced_text <- lapply(split_text, p)
-        return(replaced_text)
+        parsed <- recipes_html %>% html_nodes(paste0('#',make_clean_names(input$selected_cocktail)))
+        write_html(parsed, "temp.html")
+        includeHTML("temp.html")
     })
     
 }
+

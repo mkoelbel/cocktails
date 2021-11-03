@@ -5,8 +5,8 @@ ui <- dashboardPage(
     dashboardSidebar(
         selectInput(
             inputId = "selected_tags",
-            label = "Choose",
-            choices = names(cocktail_map),
+            label = "Choose One",
+            choices = unname(pretty_names[names(cocktail_map)]),
             multiple = FALSE
         )
     ),
@@ -14,7 +14,7 @@ ui <- dashboardPage(
     dashboardBody(
         uiOutput(outputId = "options_output"),
         box(
-            uiOutput(outputId = "recipe")
+            htmlOutput("recipe")
         )
     )
     
