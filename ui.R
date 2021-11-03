@@ -1,21 +1,20 @@
-ui <- dashboardPage(
+ui <- fluidPage(
     
-    dashboardHeader(title = "Cocktail Recipes"),
+    theme = shinytheme("slate"),
     
-    dashboardSidebar(
-        selectInput(
-            inputId = "selected_tags",
-            label = "Choose One",
-            choices = unname(pretty_names[names(cocktail_map)]),
-            multiple = FALSE
-        )
+    titlePanel("Cocktail Recipes"),
+    
+    useShinydashboard(),
+    
+    selectInput(
+        inputId = "selected_tags",
+        label = "Choose One",
+        choices = unname(pretty_names[names(cocktail_map)]),
+        multiple = FALSE
     ),
     
-    dashboardBody(
-        uiOutput(outputId = "options_output"),
-        box(
-            htmlOutput("recipe")
-        )
-    )
+    uiOutput(outputId = "options_output"),
+    
+    htmlOutput("recipe")
     
 )
