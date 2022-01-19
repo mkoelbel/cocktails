@@ -1,0 +1,13 @@
+name: cocktails
+title: cocktails
+username:
+account: maria-koelbel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4945059
+bundleId: 5483022
+url: https://maria-koelbel.shinyapps.io/cocktails/
+when: 1642550076.36044
+lastSyncTime: 1642550076.36046
+asMultiple: FALSE
+asStatic: FALSE
