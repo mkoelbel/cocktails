@@ -6,15 +6,42 @@ ui <- fluidPage(
     
     useShinydashboard(),
     
-    selectInput(
-        inputId = "selected_tags",
-        label = "Choose One",
-        choices = unname(pretty_names[names(cocktail_map)]),
+    # Choose a Cocktail ----
+    column(
+      width = 2,
+      selectInput(
+        inputId = "cocktails",
+        label = "Choose a Cocktail",
+        choices = unname(pretty_names[cocktails]),
         multiple = FALSE
+      )
     ),
     
-    uiOutput(outputId = "options_output"),
+    column(
+      width = 1,
+      h4("OR")
+    ),
     
-    htmlOutput("recipe")
+    # Choose a Description ----
+    column(
+      width = 2,
+      selectInput(
+        inputId = "cocktail_descriptions",
+        label = "Choose a Description",
+        choices = unname(pretty_names[names(cocktail_map)]),
+        multiple = FALSE
+      ),
+      # Cocktail Options ----
+      conditionalPanel(
+        "input.cocktail_descriptions != '(Select One)'",
+        uiOutput(outputId = "cocktail_options_ui")
+      )
+    ),
+    
+    # Recipe ----
+    column(
+      width = 12,
+      htmlOutput("recipe") 
+    )
     
 )
