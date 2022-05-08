@@ -33,18 +33,19 @@ cocktails <- c(
   "margarita",
   "godfather",
   "pina_colada",
-  "baileys_white_russian"
+  "baileys_white_russian",
+  "jameson_old_fashioned"
 )
 
 # __Map ----
 cocktail_map <- list(
   "select_one" = c(default_cocktail),
-  "hors_doeuvres" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "whiskey_sour", "amaretto_sour", "bees_knees", "gin_and_tonic", "negroni", "mojito", "margarita"),
+  "hors_doeuvres" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "jameson_old_fashioned", "whiskey_sour", "amaretto_sour", "bees_knees", "gin_and_tonic", "negroni", "mojito", "margarita"),
   "dessert" = c(default_cocktail, "amaretto_sour", "godfather", "pina_colada", "baileys_white_russian"),
   "refreshing" = c(default_cocktail, "bees_knees", "gin_and_tonic", "mojito", "negroni"),
   "summer" = c(default_cocktail, "bees_knees", "gin_and_tonic", "mojito", "margarita", "negroni", "pina_colada"),
-  "winter" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "godfather", "baileys_white_russian"),
-  "whiskey" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "whiskey_sour", "amaretto_sour", "godfather"),
+  "winter" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "jameson_old_fashioned", "godfather", "baileys_white_russian"),
+  "whiskey" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "jameson_old_fashioned", "whiskey_sour", "amaretto_sour", "godfather"),
   "gin" = c(default_cocktail, "bees_knees", "gin_and_tonic", "negroni"),
   "rum" = c(default_cocktail, "mojito", "pina_colada"),
   "tequila" = c(default_cocktail, "margarita"),
@@ -59,6 +60,7 @@ pretty_names <- c(
   "old_fashioned" = "Old Fashioned",
   "manhattan" = "Manhattan",
   "boulevardier" = "Boulevardier",
+  "jameson_old_fashioned" = "Jameson Old Fashioned",
   "whiskey_sour" = "Whiskey Sour",
   "amaretto_sour" = "Amaretto Sour",
   "bees_knees" = "Bee's Knees",

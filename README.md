@@ -7,8 +7,9 @@
     a. In recipes.Rhtml, add block at bottom for the new recipe.
     b. Knit file to preview it.
 2. Add cocktail to framework in global.R
-    a. Add to cocktail_map where appropriate.
-    b. Add to pretty_names.
+    a. Add to cocktails.
+    b. Add to cocktail_map where appropriate.
+    c. Add to pretty_names.
 3. Deploy app
     a. From server.R, click the blue Publish icon.
 4. Push to Github

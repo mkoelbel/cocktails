@@ -5,9 +5,9 @@ account: maria-koelbel
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4945059
-bundleId: 5676717
+bundleId: 5776381
 url: https://maria-koelbel.shinyapps.io/cocktails/
-when: 1647140050.67665
-lastSyncTime: 1647140050.68409
+when: 1649379385.21386
+lastSyncTime: 1649379385.21387
 asMultiple: FALSE
 asStatic: FALSE
