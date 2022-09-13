@@ -21,32 +21,40 @@ default_cocktail <- make_clean_names(default_cocktail_pretty)
 # __Cocktails ----
 cocktails <- c(
   default_cocktail,
+  # whiskey
   "old_fashioned",
   "manhattan",
   "boulevardier",
   "whiskey_sour",
   "amaretto_sour",
+  "godfather",
+  "jameson_old_fashioned",
+  # gin
   "bees_knees",
   "gin_and_tonic",
+  "aviation",
   "negroni",
+  # rum
   "mojito",
-  "margarita",
-  "godfather",
   "pina_colada",
+  # tequila
+  "margarita",
+  # vodka
   "baileys_white_russian",
-  "jameson_old_fashioned"
+  # other
+  "aperol_spritz"
 )
 
 # __Map ----
 cocktail_map <- list(
   "select_one" = c(default_cocktail),
-  "hors_doeuvres" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "jameson_old_fashioned", "whiskey_sour", "amaretto_sour", "bees_knees", "gin_and_tonic", "negroni", "mojito", "margarita"),
+  "hors_doeuvres" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "jameson_old_fashioned", "whiskey_sour", "amaretto_sour", "bees_knees", "gin_and_tonic", "aviation", "negroni", "mojito", "margarita", "aperol_spritz"),
   "dessert" = c(default_cocktail, "amaretto_sour", "godfather", "pina_colada", "baileys_white_russian"),
-  "refreshing" = c(default_cocktail, "bees_knees", "gin_and_tonic", "mojito", "negroni"),
-  "summer" = c(default_cocktail, "bees_knees", "gin_and_tonic", "mojito", "margarita", "negroni", "pina_colada"),
+  "refreshing" = c(default_cocktail, "bees_knees", "gin_and_tonic", "aviation", "mojito", "negroni", "aperol_spritz"),
+  "summer" = c(default_cocktail, "bees_knees", "gin_and_tonic", "aviation", "mojito", "margarita", "negroni", "pina_colada", "aperol_spritz"),
   "winter" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "jameson_old_fashioned", "godfather", "baileys_white_russian"),
   "whiskey" = c(default_cocktail, "old_fashioned", "manhattan", "boulevardier", "jameson_old_fashioned", "whiskey_sour", "amaretto_sour", "godfather"),
-  "gin" = c(default_cocktail, "bees_knees", "gin_and_tonic", "negroni"),
+  "gin" = c(default_cocktail, "bees_knees", "gin_and_tonic", "aviation", "negroni"),
   "rum" = c(default_cocktail, "mojito", "pina_colada"),
   "tequila" = c(default_cocktail, "margarita"),
   "vodka" = c(default_cocktail, "baileys_white_russian"),
@@ -66,11 +74,13 @@ pretty_names <- c(
   "bees_knees" = "Bee's Knees",
   "gin_and_tonic" = "Gin and Tonic",
   "negroni" = "Negroni",
+  "aviation" = "Aviation",
   "mojito" = "Mojito",
   "margarita" = 'Margarita',
   "godfather" = "Godfather",
   "pina_colada" = "Pina Colada",
   "baileys_white_russian" = "Baileys White Russian",
+  "aperol_spritz" = "Aperol Spritz",
   "hors_doeuvres" = "Hors d'oeuvres",
   "dessert" = "Dessert",
   "refreshing" = "Refreshing",
