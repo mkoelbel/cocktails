@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type="text/css">
 .main-container {
   max-width: 940px;
@@ -80,6 +81,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -176,17 +180,17 @@ pre code {
 <ol style="list-style-type: decimal">
 <li>Add recipe to recipes.html
 <ol style="list-style-type: lower-alpha">
-<li>In recipes.Rhtml, add block at bottom for the new recipe.</li>
+<li>In <em>recipes_html/recipes.Rhtml</em>, add block at bottom for the new recipe.</li>
 <li>Knit file to preview it.</li>
 </ol></li>
-<li>Add cocktail to framework in global.R
+<li>Add cocktail to framework in <em>setup/create_cocktail_structure.R</em>
 <ol style="list-style-type: lower-alpha">
-<li>Add to cocktail_map where appropriate.</li>
-<li>Add to pretty_names.</li>
+<li>Add cocktail name and descriptors to <code>cocktail_map</code> variable.</li>
+<li>Run all code in <em>setup/create_cocktail_structure.R</em>.</li>
 </ol></li>
 <li>Deploy app
 <ol style="list-style-type: lower-alpha">
-<li>From server.R, click the blue Publish icon.</li>
+<li>From <em>server.R</em>, click the blue Publish icon.</li>
 </ol></li>
 <li>Push to Github</li>
 </ol>
