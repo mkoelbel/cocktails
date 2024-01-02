@@ -1,0 +1,719 @@
+COCKTAIL:
+Old Fashioned
+
+ingredients:
+2 oz whiskey
+2 tsp sugar
+2 dashes Angostura bitters
+1 tsp water
+Garnish: orange peel
+Garnish: maraschino cherry
+
+instructions:
+1. In a rocks glass, combine sugar, bitters, and water. Muddle until sugar is nearly dissolved.
+2. Add ice and whiskey. Stir until well chilled.
+3. Garnish with orange peel and cherry.
+
+tags:
+Before dinner
+Cozy
+
+scalable:
+F
+
+
+COCKTAIL:
+Manhattan
+
+ingredients:
+2 oz whiskey
+1 oz sweet vermouth
+2 dashes Angostura bitters
+Garnish: maraschino cherry
+
+instructions:
+1. Chill a coupe glass.
+2. In a mixing glass, combine whiskey, sweet vermouth, and bitters. Add ice and stir until well chilled.
+3. Strain into coupe glass.
+4. Garnish with cherry.
+
+tags:
+Before dinner
+Cozy
+
+scalable:
+F
+
+
+COCKTAIL:
+Jameson Old Fashioned
+
+ingredients:
+2 oz Jameson Irish whiskey
+1 oz simple syrup
+2 dashes Angostura bitters
+2 dashes orange bitters
+Garnish: orange peel
+
+instructions:
+1. In a mixing glass, combine whiskey, both bitters, and simple syrup. Add ice and stir until well chilled.
+2. Strain into rocks glass with ice.
+3. Garnish with orange peel.
+
+tags:
+Before dinner
+
+scalable:
+F
+
+
+COCKTAIL:
+Whiskey Highball
+
+ingredients:
+2 oz whiskey
+4 oz soda water
+Garnish: lemon wedge
+
+instructions:
+1. Fill highball glass with ice.
+2. Add whiskey and soda water. Stir.
+3. Squeeze in lemon wedge.
+
+tags:
+
+scalable:
+F
+
+
+COCKTAIL:
+Paper Plane
+
+ingredients:
+1 oz whiskey
+1 oz Aperol
+1 oz Italian amaro
+1 oz lemon juice
+
+instructions:
+1. In a shaker, combine whiskey, Aperol, amaro, and lemon juice. Add ice and shake.
+2. Strain into coupe glass.
+
+tags:
+Before dinner
+
+scalable:
+T
+
+
+COCKTAIL:
+Irish Coffee
+
+ingredients:
+6 oz hot coffee
+1 tsp sugar
+1.5 oz Irish whiskey
+whipped cream
+
+instructions:
+1. Make coffee
+2. Make whipped cream, whipping to soft peaks.
+3. Add coffee to glass or Irish coffee mug, leaving an inch at the top for cream. Stir in sugar and whiskey until sugar dissolves.
+4. Gently float whipped cream on top using the back of a spoon.
+
+tags:
+After dinner
+Cozy
+
+scalable:
+F
+
+
+COCKTAIL:
+Godfather
+
+ingredients:
+1.5 oz whiskey
+0.5 oz amaretto
+
+instructions:
+1. Fill a rocks glass with ice.
+2. Add whiskey and amaretto. Stir.
+
+tags:
+After dinner
+Cozy
+
+scalable:
+F
+
+
+COCKTAIL:
+Boulevardier
+
+ingredients:
+1.5 oz whiskey
+1 oz Campari
+1 oz sweet vermouth
+Garnish: orange peel
+
+instructions:
+1. In a mixing glass, combine whiskey, Campari, and sweet vermouth. Add ice and stir until well chilled.
+2. Strain into rocks glass with ice.
+3. Garnish with orange peel.
+
+tags:
+Before dinner
+Cozy
+
+scalable:
+F
+
+
+COCKTAIL:
+Whiskey Sour
+
+ingredients:
+2 oz whiskey
+0.75 oz lemon juice
+0.5 oz simple syrup
+1 egg white
+3-4 dashes Angostura bitters
+
+instructions:
+1. In a shaker, combine whiskey, lemon juice, simple syrup, and egg white. Dry shake.
+2. Add ice, and wet shake.
+3. Strain into rocks glass with ice, or into coupe glass without ice.
+4. Garnish with bitters.
+
+tags:
+
+scalable:
+F
+
+
+COCKTAIL:
+Amaretto Sour
+
+ingredients:
+2 oz Amaretto liqueur
+1 oz lemon juice
+1 oz simple syrup
+Garnish: orange slice
+Garnish: maraschino cherry
+
+instructions:
+1. In a shaker, combine Amaretto, lemon juice, and simple syrup. Add ice and shake.
+2. Strain into rocks glass with ice, or into a coupe glass without ice.
+3. Garnish with orange slice and cherry.
+
+tags:
+After dinner
+
+scalable:
+T
+
+
+COCKTAIL:
+Aviation
+
+ingredients:
+2 oz gin
+0.25 oz maraschino liqueur
+0.25 creme de violette liqueur
+0.5 oz lemon juice
+Garnish: maraschino cherry
+
+instructions:
+1. In a shaker, combine gin, maraschino liqueur, creme de violette, and lemon juice. Add ice and shake.
+2. Strain into coupe glass.
+3. Garnish with cherry.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+French 75
+
+ingredients:
+1 oz gin
+0.5 oz lemon juice
+0.5 oz simple syrup
+3 oz champagne
+
+instructions:
+1. In a shaker, combine gin, lemon juice, and simple syrup. Add ice and shake.
+2. Strain into champagne flute.
+3. Top with champagne. Stir gently.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Bee's Knees
+
+ingredients:
+2 oz gin
+0.5 oz honey syrup
+0.75 oz lemon juice
+Garnish: lemon twist
+
+instructions:
+1. In a shaker, combine gin, honey syrup, and lemon juice. Add ice and shake.
+2. Strain into coupe glass.
+3. Garnish with lemon twist.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Gin Fizz
+
+ingredients:
+2 oz gin
+0.5 oz simple syrup
+0.75 oz lemon juice
+1 egg white
+club soda
+Garnish: lemon twist
+
+instructions:
+1. In a shaker, combine gin, simple syrup, lemon juice, and egg white. Dry shake for 15 seconds.
+2. Add ice and wet shake for 30 seconds.
+3. Strain into highball glass.
+4. Top with club soda.
+5. Garnish with lemon twist.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+F
+
+
+COCKTAIL:
+Negroni
+
+ingredients:
+1 oz gin
+1 oz Campari
+1 oz sweet vermouth
+Garnish: orange peel
+
+instructions:
+1. In a mixing glass, combine gin, Campari, and sweet vermouth. Add ice and stir until well chilled.
+2. Strain into rocks glass with ice.
+3. Garnish with orange peel.
+
+tags:
+Before dinner
+
+scalable:
+F
+
+
+COCKTAIL:
+Tom Collins
+
+ingredients:
+2 oz gin
+1 oz lemon juice
+0.5 oz simple syrup
+club soda
+Garnish: lemon wheel
+
+instructions:
+1. In a highball glass, combine gin, lemon juice, and simple syrup.
+2. Add ice, top with club soda, and stir.
+3. Garnish with lemon wheel.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+F
+
+
+COCKTAIL:
+Gin & Tonic
+
+ingredients:
+2 oz gin
+4 oz tonic water
+Garnish: lime wheel
+
+instructions:
+1. Fill highball glass with ice.
+2. Add gin and tonic. Stir.
+3. Garnish with lime wheel.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+F
+
+
+COCKTAIL:
+Gimlet
+
+ingredients:
+2 oz gin
+0.5 oz lime juice
+0.5 oz simple syrup
+Garnish: lime wheel
+
+instructions:
+1. In a shaker, combine gin, lime juice, and simple syrup. Add ice and shake.
+2. Strain into coupe glass.
+3. Garnish with lime wheel.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Mojito
+
+ingredients:
+2 oz white rum
+1 oz lime juice
+0.5 oz simple syrup
+5 mint leaves
+club soda
+Garnish: lime wheel
+
+instructions:
+1. In a shaker, combine mint, sugar, and lime juice. Muddle.
+2. Add rum and ice. Shake.
+3. Strain into highball glass with ice.
+4. Top with club soda.
+4. Garnish with lime wheel.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Pina Colada
+
+ingredients:
+2 oz white rum
+3 oz cream of coconut
+4 oz pineapple juice
+Garnish: maraschino cherry
+
+instructions:
+1. In a blender, combine rum, cream of coconut, pineapple juice, and 2 cups of ice. Blend.
+2. Pour into tall glass.
+3. Garnish with cherry.
+
+tags:
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Daiquiri
+
+ingredients:
+2 oz white rum
+1 oz lime juice
+0.75 oz simple syrup
+Garnish: lime twist
+
+instructions:
+1. Chill coupe glass.
+2. In a shaker, combine rum, lime juice, and simple syrup. Add ice and shake.
+3. Strain into chilled coupe glass.
+4. Ganrish with lime twist.
+
+tags:
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Margarita
+
+ingredients:
+2 oz tequila
+1 oz orange liqueur (Cointreau/Grand Marnier/Triple Sec/Curacao)
+1 ox lime juice
+Garnish: lime wedge
+Garnish: salt
+
+instructions:
+1. Chill rocks glass.
+2. Prepare plate of salt for salting rim.
+3. In a shaker, combine tequila, orange liqueur, and lime juice. Add ice and shake.
+4. Salt rim of glass. (Dip rim of chilled glass into salt.)
+5. Strain into glass with ice.
+6. Garnish with lime wedge.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Tequila Sour
+
+ingredients:
+2 oz tequila
+0.5 oz lemon juice
+0.5 oz lime juice
+0.5 oz agave nectar
+1 egg white
+2 dashes Angostura bitters
+Garnish: maraschino cherry
+
+instructions:
+1. In a cocktail shaker, combine tequila, lemon juice, lime juice, agave nectar, egg white, and bitters. Dry shake.
+2. Add ice and wet shake.
+3. Strain into rocks glass with ice, or into coupe glass without ice.
+4. Garnish with cherry.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Tequila Sunrise
+
+ingredients:
+1.5 oz tequila
+4 oz orange juice
+0.5 oz grenadine
+Garnish: orange wedge
+Garnish: maraschino cherry
+
+instructions:
+1. Fill highball glass with ice.
+2. Add tequila and orange juice and stir. Then add grenadine.
+3. Garnish with orange wedge and cherry.
+
+tags:
+Refreshing
+
+scalable:
+F
+
+
+COCKTAIL:
+Bloody Mary
+
+ingredients:
+2 oz vodka
+4 oz tomato juice
+0.5 oz lemon juice
+2 dashes Worcestershire sauce
+2 dashes tobasco sauce
+scelery alt
+pepper
+Garnish: celery stalk
+
+instructions:
+1. Chill highball glass.
+2. Prepare plate of celery salt for salting rim.
+3. In a shaker, combine vodka, tomato juice, lemon juice, Worcestershire, Tobasco, salt, and pepper. Add ice and shake.
+4. Salt rim of glass. (Dip rim of chilled glass into salt.)
+2. Strain into highball glass with ice.
+3. Garnish with celery.
+
+tags:
+Brunch
+
+scalable:
+F
+
+
+COCKTAIL:
+Limoncello Vodka Collins
+
+ingredients:
+2 oz vodka
+0.25 oz Limoncello liqueur
+1 oz lemon juice
+0.5 oz simple syrup
+club soda
+lemon wheel
+
+instructions:
+1. In a mixing glass or a large pitcher, combine vodka, limoncello, lemon juice, and simple syrup. Stir.
+2. Strain into highball glass with ice.
+3. Top with club soda. Stir.
+4. Garnish with lemon wheel.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+T
+
+
+COCKTAIL:
+Baileys White Russian
+
+ingredients:
+2 oz vodka
+1 oz Kahlua
+1 oz Baileys Irish cream
+
+instructions:
+1. In a rocks glass, combine vodka and Kahlua. Add ice and stir.
+2. Slowly pour in Baileys.
+3. Stir gently to get a swirl effect.
+
+tags:
+After dinner
+Cozy
+
+scalable:
+F
+
+
+COCKTAIL:
+Espresso Martini
+
+ingredients:
+2 oz vodka
+1 oz espresso
+0.5 oz coffee liqueur (Kahlua)
+0.5 oz simple syrup
+Garnish: coffee beans
+
+instructions:
+1. Chill coupe glass or martini glass.
+2. Make espresso and place in freezer to cool quickly.
+3. In a shaker, combine vodka, espresso, coffee liqueur, and simple syrup. Add ice and shake vigorously to create foam.
+4. Strain into glass.
+5. Garnish with 3 coffee beans, or coffee bean shavings.
+
+tags:
+After dinner
+Cozy
+
+scalable:
+T
+
+
+COCKTAIL:
+Aperol Spritz
+
+ingredients:
+2 oz Aperol
+3 oz prosecco
+1 oz club soda
+Garnish: orange slice
+
+instructions:
+1. Fill wine glass with ice. Add Aperol, prosecco, and club soda. Stir.
+2. Garnish with orange slice.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+F
+
+
+COCKTAIL:
+Hugo Spritz
+
+ingredients:
+1 oz St-Germain elderflower liqueur
+4 oz prosecco
+1 oz club soda
+Garnish: mint sprig
+Garnish: lemon wheel
+
+instructions:
+1. In a wine glass, add St-Germain and a couple mint leaves. Stir to combine, gently smashing the mint leaves.
+2. Add ice, prosecco, and club soda. Stir.
+3. Garnish with mint sprig and lemon wheel.
+
+tags:
+Before dinner
+Refreshing
+
+scalable:
+F
+
+
+COCKTAIL:
+Sidecar
+
+ingredients:
+2 oz cognac
+0.75 oz orange liqueur
+0.75 oz lemon juice
+Garnish: orange twist
+
+instructions:
+1. In a shaker, combine cognac, orange liqueur, and lemon juice. Add ice and shake.
+2. Strain into coupe glass.
+3. Garnish with orange twist.
+
+tags:
+
+scalable:
+T
+
+
+COCKTAIL:
+French Connection
+
+ingredients:
+1.5 oz cognac
+1 oz amaretto
+
+instructions:
+1. Fill a rocks glass with ice.
+2. Add cognac and amaretto. Stir.
+
+tags:
+After dinner
+Cozy
+
+scalable:
+F

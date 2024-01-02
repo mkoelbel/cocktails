@@ -1,0 +1,5 @@
+To Do:
+- continue implementing things in ui and server and making necessary functions
+   - debug: currently not showing list of cocktails
+- add "(All)" to input filter lists and implement
+- add function to scale up recipes
