@@ -2,25 +2,16 @@ server <- function(input, output) {
   
   # Variables ----
   values <- reactiveValues()
-  values$cocktail_list_to_display <- cocktail_names # this isn't working, returns empty list
-    
-  # Filter cocktail list based on Liquor
-  observeEvent(input$liquor, {
-    values$cocktail_list_to_display <- filter_cocktail_list(
-      cocktail_list = cocktail_names,
-      tag = input$liquor,
-      dictionary = cocktail_dictionary
-    )
-
+  
+  # Filter cocktail list
+  filters_selected <- reactive(list(input$liquor, input$time, input$mood))
+  
+  observeEvent(filters_selected(), {
     updateSelectInput(
       inputId = "cocktail",
-      choices = values$cocktail_list_to_display
+      choices = filter_cocktail_list(c(input$liquor, input$time, input$mood))
     )
   })
-
-  # Filter cocktail list based on Time
-  
-  # Filter cocktail list based on Mood
   
   # Conditionally display Number of Servings input
   

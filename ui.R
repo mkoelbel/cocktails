@@ -12,7 +12,7 @@ ui <- fluidPage(
     selectInput(
       inputId = "liquor",
       label = "Liquor",
-      choices = LIQUORS_LIST,
+      choices = c(WILDCARD, LIQUORS_LIST),
       multiple = FALSE
     ),
     
@@ -37,7 +37,7 @@ ui <- fluidPage(
     selectInput(
       inputId = "cocktail",
       label = "Cocktail",
-      choices = cocktail_names,
+      choices = sort(cocktail_names),
       multiple = FALSE
     ),
     

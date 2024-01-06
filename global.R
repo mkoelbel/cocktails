@@ -21,6 +21,7 @@ sapply(function_files, source)
 LIQUORS_LIST <- c("Whiskey", "Gin", "Tequila", "Rum", "Vodka", "Cognac")
 TIME_LIST <- c("Brunch", "Before dinner", "After dinner")
 MOOD_LIST <- c("Cozy", "Refreshing")
+WILDCARD <- "(Any)"
 
 RECIPES_TEXT_FILE <- "text_files/recipes.txt"
 RECIPE_STARTER <- "COCKTAIL:\n"
