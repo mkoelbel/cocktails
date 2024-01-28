@@ -41,19 +41,11 @@ ui <- fluidPage(
       multiple = FALSE
     ),
     
-    # for some reason this isn't working since we're not using it
-    # eventually make this a UI so we display it conditionally
-    # selectInput(
-    #   inputID = "number_of_servings",
-    #   label = "Servings",
-    #   choices = 1:6,
-    #   multiple = FALSE
-    # )
+    uiOutput("number_of_servings_ui")
   ),
   
   column(
     width = 12,
-    
     uiOutput("recipe_ui")
   )
 )
