@@ -33,6 +33,7 @@ server <- function(input, output) {
   # Display cocktail recipe
   output$recipe_ui <- renderUI({
     fluidRow(
+      h3(values$current_cocktail),
       h4("Ingredients"),
       HTML(values$current_recipe$ingredients %>% paste(collapse = "<br/>")),
       br(),
