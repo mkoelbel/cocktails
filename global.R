@@ -8,6 +8,8 @@ library(shinydashboard)
 library(rsconnect)
 library(readr)
 library(dplyr)
+library(stringr)
+library(glue)
 
 # Functions ----
 function_folders <- "functions"

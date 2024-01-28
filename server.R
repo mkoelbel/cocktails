@@ -13,9 +13,12 @@ server <- function(input, output) {
     )
   })
   
+  # Get name and recipe for selected cocktail
   observeEvent(input$cocktail, {
     values$current_cocktail <- input$cocktail
     values$current_recipe <- get_recipe(values$current_cocktail)
+    # Make separate variable for ingredients so that we can optionally scale them
+    values$ingredients_to_display <- values$current_recipe$ingredients
   })
   
   # Conditionally display Number of Servings input
@@ -30,12 +33,17 @@ server <- function(input, output) {
     }
   })
   
+  # Scale ingredients for selected number of servings
+  observeEvent(input$number_of_servings, {
+    values$ingredients_to_display <- scale_ingredients(values$current_recipe$ingredients, input$number_of_servings)
+  })
+  
   # Display cocktail recipe
   output$recipe_ui <- renderUI({
     fluidRow(
       h3(values$current_cocktail),
       h4("Ingredients"),
-      HTML(values$current_recipe$ingredients %>% paste(collapse = "<br/>")),
+      HTML(values$ingredients_to_display %>% paste(collapse = "<br/>")),
       br(),
       h4("Instructions"),
       HTML(values$current_recipe$instructions %>% paste(collapse = "<br/>"))
