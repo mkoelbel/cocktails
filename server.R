@@ -50,8 +50,6 @@ server <- function(input, output) {
     )
   })
   
-  # Update recipe for selected number of servings
-  
   observeEvent(input$debug, browser())
 }
 

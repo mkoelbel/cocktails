@@ -27,13 +27,6 @@ WILDCARD <- "(Any)"
 
 RECIPES_TEXT_FILE <- "text_files/recipes.txt"
 RECIPE_STARTER <- "COCKTAIL:\n"
-# RECIPE_STRUCTURE <- c(
-#   "name",
-#   "ingredients",
-#   "instructions",
-#   "tags",
-#   "scalable"
-# )
 
 recipes_list <- get_recipes_list()
 cocktail_names <- get_cocktail_names(recipes_list)
