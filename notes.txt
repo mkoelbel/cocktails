@@ -1,4 +1,2 @@
 To Do:
-- continue implementing things in ui and server and making necessary functions
-- for Time and Mood inputs, after selection, de-select old selection (limit to 0 or 1 selected)
 - re-format UI. use shinyDashboard with collapsible sidebar

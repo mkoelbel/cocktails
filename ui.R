@@ -16,16 +16,16 @@ ui <- fluidPage(
       multiple = FALSE
     ),
     
-    checkboxGroupInput(
+    radioButtons(
       inputId = "time",
       label = "Time",
-      choices = TIME_LIST
+      choices = c(WILDCARD, TIME_LIST)
     ),
     
-    checkboxGroupInput(
+    radioButtons(
       inputId = "mood",
       label = "Mood",
-      choices = MOOD_LIST
+      choices = c(WILDCARD, MOOD_LIST)
     )
     
     ,actionBttn("debug", "Browser")
