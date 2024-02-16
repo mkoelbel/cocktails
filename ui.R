@@ -1,6 +1,6 @@
 ui <- dashboardPage(
   
-  skin = "black",
+  # skin = "black",
   
   dashboardHeader(title = "Cocktail Recipes"),
   
@@ -22,9 +22,9 @@ ui <- dashboardPage(
       inputId = "mood",
       label = "Mood",
       choices = c(WILDCARD, MOOD_LIST)
-    )
+    ),
     
-    ,actionBttn("debug", "Browser"),
+    # actionBttn("debug", "Browser"),
     
     selectInput(
       inputId = "cocktail",
@@ -37,9 +37,6 @@ ui <- dashboardPage(
   ),
   
   dashboardBody(
-    # tags$head(
-    #   tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
-    # ),
     includeCSS("www/style.css"),
     
     column(
