@@ -1,2 +1,17 @@
 To Do:
 - re-format UI. use shinyDashboard with collapsible sidebar
+- make things pretty
+    - font
+       title
+    - color
+       input accents
+    - borders? emphasize ingredients / instructions headers?
+
+
+
+.main-header .logo {
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-size: 20px;
+  background-color: purple ;
+}

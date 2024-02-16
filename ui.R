@@ -1,14 +1,10 @@
-ui <- fluidPage(
+ui <- dashboardPage(
   
-  theme = shinytheme("slate"),
+  skin = "black",
   
-  titlePanel("Cocktail Recipes"),
+  dashboardHeader(title = "Cocktail Recipes"),
   
-  useShinydashboard(),
-  
-  column(
-    width = 6,
-    
+  dashboardSidebar(
     selectInput(
       inputId = "liquor",
       label = "Liquor",
@@ -19,7 +15,7 @@ ui <- fluidPage(
     radioButtons(
       inputId = "time",
       label = "Time",
-      choices = c(WILDCARD, TIME_LIST)
+      choices = c(WILDCARD, TIME_LIST),
     ),
     
     radioButtons(
@@ -28,11 +24,7 @@ ui <- fluidPage(
       choices = c(WILDCARD, MOOD_LIST)
     )
     
-    ,actionBttn("debug", "Browser")
-  ),
-  
-  column(
-    width = 6,
+    ,actionBttn("debug", "Browser"),
     
     selectInput(
       inputId = "cocktail",
@@ -44,8 +36,15 @@ ui <- fluidPage(
     uiOutput("number_of_servings_ui")
   ),
   
-  column(
-    width = 12,
-    uiOutput("recipe_ui")
+  dashboardBody(
+    # tags$head(
+    #   tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+    # ),
+    includeCSS("www/style.css"),
+    
+    column(
+      width = 12,
+      uiOutput("recipe_ui")
+    )
   )
 )
