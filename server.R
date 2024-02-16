@@ -42,9 +42,10 @@ server <- function(input, output) {
   output$recipe_ui <- renderUI({
     fluidRow(
       h3(values$current_cocktail),
+      br(),
       h4("Ingredients"),
       HTML(values$ingredients_to_display %>% paste(collapse = "<br/>")),
-      br(),
+      br(),br(),
       h4("Instructions"),
       HTML(values$current_recipe$instructions %>% paste(collapse = "<br/>"))
     )
@@ -52,4 +53,3 @@ server <- function(input, output) {
   
   observeEvent(input$debug, browser())
 }
-
