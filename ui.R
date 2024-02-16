@@ -12,16 +12,18 @@ ui <- dashboardPage(
       multiple = FALSE
     ),
     
-    radioButtons(
+    prettyRadioButtons(
       inputId = "time",
       label = "Time",
       choices = c(WILDCARD, TIME_LIST),
+      status = "success"
     ),
     
-    radioButtons(
+    prettyRadioButtons(
       inputId = "mood",
       label = "Mood",
-      choices = c(WILDCARD, MOOD_LIST)
+      choices = c(WILDCARD, MOOD_LIST),
+      status = "success"
     ),
     
     # actionBttn("debug", "Browser"),
