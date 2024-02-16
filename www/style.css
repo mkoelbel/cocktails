@@ -1,28 +1,52 @@
-.main-header .logo {
-  background: #4898a8;
+/* body */
+.content-wrapper,
+.right-side {
+  background-color: #363636;
+  color: #cecece;
+  border-style: double;
+  border-width: 6px;
+  border-color: #44092f;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-body, h3, h4, .main-header .logo {
-  background: #4898a8;
+h3, h4 {
+  font-family: 'Courier New', Courier, monospace;
 }
 
-/* Style the radio button input element */ 
-input[type="radio"] { 
-  /* Set the background color for the radio button */ 
-  background-color: #green; 
- 
-  /* Set the border color for the radio button */ 
-  border-color: #pink; 
- 
-  /* Set the border width for the radio button */ 
-  border-width: 1px; 
-} 
- 
-/* Style the radio button when it is checked */ 
-input[type="radio"]:checked { 
-  /* Set the background color for the checked radio button */ 
-  background-color: #yellow; 
- 
-  /* Set the border color for the checked radio button */ 
-  border-color: #teal; 
+/* logo */
+.skin-blue .main-header .logo {
+  background-color: #363636;
+  color: #cecece;
+  font-family: cursive;
+}
+
+/* logo when hovered */
+.skin-blue .main-header .logo:hover {
+  background-color: #4b4b4b;
+  color: #cecece;
+}
+
+/* navbar (rest of the header) */
+.skin-blue .main-header .navbar {
+  background-color: #363636;
+  color: #cecece;
+}        
+
+/* main sidebar */
+.skin-blue .main-sidebar {
+  background-color: #363636;
+  color: #cecece;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* toggle button  */                    
+.skin-blue .main-header .navbar .sidebar-toggle {
+  background-color: #363636;
+  color: #cecece;
+}
+
+/* toggle button when hovered  */                    
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #4b4b4b;
+  color: #cecece;
 }
